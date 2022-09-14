@@ -1,15 +1,13 @@
-#include "main.h"
+include "main.h"
 /**
- * _islower - check for lowercase character
- * @c:	is the int that we will use for the arguement of the function
- * Return: 0
+ * _islower - check for lower case letter
+ * @c : character to check the case
+ * Return:0 or 1
  */
-int _islower(int)
+
+int _islower(int c)
+
 {
-	if (c >= 'a' && c <= 'z')
-	{
-		return (1);
-	}
-	else
-		return (0);
+
+		return (c >= 97 && c <= 122);
 }
