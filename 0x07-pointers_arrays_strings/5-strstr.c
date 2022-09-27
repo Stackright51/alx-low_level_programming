@@ -18,7 +18,7 @@ char *_strstr(char *haystack, char *needle)
 			if (haystack[i + j] == needle[j])
 				j++;
 			else
-				break
+				break;
 		}
 		if (needle[j])
 		{
